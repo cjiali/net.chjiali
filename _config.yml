@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 陈家礼
 subtitle: ''
 description: ''
 keywords:
@@ -103,7 +103,10 @@ theme: matery
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/cjiali/net.chjiali
+  # example, https://github.com/hexojs/hexojs.github.io
+  branch: gh-pages
 
 # Personal configure
 menu:
@@ -129,14 +132,6 @@ prism_plugin:
 permalink_pinyin:
   enable: true
   separator: '-' # default: '-'
-
-postInfo:
-  date: true
-  update: false
-  wordCount: false # set true.
-  totalCount: false # set true.
-  min2read: false # set true.
-  readCount: false # set true.
 
 search:
   path: search.xml

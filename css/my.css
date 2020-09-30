@@ -1,7 +1,7 @@
 /* Here is your custom css styles. */
 
 /* hexo-filter-github-emojis */
-.github-emoji{
+.github-emoji {
     height: 2em;
     width: 2em;
     display: inline-block !important;
@@ -9,7 +9,7 @@
     margin: 0 3px !important;
     padding: 0;
 }
-.github-emoji:hover{
+.github-emoji:hover {
     animation: emoji-face 5s infinite ease-in-out;
 }
 @keyframes emoji-face {
@@ -55,4 +55,75 @@
     28% {
         transform: translate(0, 0.5px) rotate(1.5deg);
     }
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    /* position: absolute;
+    right: 0;
+    top: 0;
+    background-color: transparent; */
+}
+::-webkit-scrollbar-track {
+    background-color: rgba(73, 177, 245, 0.1);
+    border-radius: 3em;
+}
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #49b1f5;
+    background-image: -webkit-linear-gradient(
+        45deg,
+        rgba(255, 255, 255, 0.4) 25%,
+        transparent 25%,
+        transparent 50%,
+        rgba(255, 255, 255, 0.4) 50%,
+        rgba(255, 255, 255, 0.4) 75%,
+        transparent 75%,
+        transparent
+    );
+    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 50%);
+    border-radius: 3em;
+}
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+::-webkit-scrollbar-button:start,
+::-webkit-scrollbar-button:end {
+    width: 0;
+    height: 0;
+}
+
+.bg-color {
+    /* background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 50%); */
+    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    /* opacity: 0.5; */
+}
+@font-face {
+    font-family: font-644;
+    /* src: url(../source/644.ttf); */
+    src: url("https://ttf.izihun.com/build_font/webfont/644/b0fcb771a715cf49615e7f21376c22ee.eof");
+    src: url("https://ttf.izihun.com/build_font/webfont/644/b0fcb771a715cf49615e7f21376c22ee.eof#iefix")
+            format("embedded-opentype"),
+        url("https://ttf.izihun.com/build_font/webfont/644/b0fcb771a715cf49615e7f21376c22ee.ttf")
+            format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "sub-644-1601434370753";
+    src: url("../644.ttf")
+            format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+.css-sub-font-family-644 {
+    font-family: "sub-644-1601434370753";
+}
+
+.font-644 {
+    font-family: "sub-644-1601434370753";
 }

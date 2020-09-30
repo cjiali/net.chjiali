@@ -1,0 +1,38 @@
+/**
+ * @file icon.css
+ */
+
+@font-face {
+    font-family: "fonticon";
+    src: url("fonticon.eot"); /* IE9 */
+    src: url("fonticon.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("fonticon.woff2") format("woff2"), /* chrome、firefox、opera、Safari, Android, iOS */
+    url("fonticon.woff") format("woff"), /* chrome、firefox */
+    url("fonticon.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    url("fonticon.svg#uxfonteditor") format("svg"); /* iOS 4.1- */
+}
+
+
+.icon {
+    font-family: "fonticon" !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-space:before {
+  content: "\20";
+}
+
+.icon-uni793C:before {
+  content: "\793c";
+}
+
+
+
